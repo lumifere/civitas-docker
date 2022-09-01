@@ -1,0 +1,49 @@
+.inicial_campo{
+    display: flex;
+    justify-content: center;
+    margin: 0 0 20px;
+}
+
+.inicial_textcampo{
+    align-items: center;
+    text-align: start;
+    background-color: white;
+    width: 300px;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#inicial_form{
+    text-align: left;
+    margin-top: 5px;
+    padding: 12.5px;
+    border: 2px solid #FE6400;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.inicial_campos{
+    align-items: center;
+    text-align: start;
+    background-color: white;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.registrar {
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #FE6400;
+    color: #ffffff;
+    border: 2px solid #FE6400;
+    width: 100%;
+    font-size: 14px;
+    font-weight: bold;
+}   
+
+.registrar:hover { 
+    background-color: #ff8533;
+}

@@ -1,0 +1,26 @@
+.nav {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    background: #004c61;
+    padding: 15px 100px 15px 100px;
+    width: 100%;
+    z-index: 1;
+    border-radius: 0 0 50px 50px;
+    border-bottom: 3px solid #FE6400;
+}
+
+.nav img{
+    width: 60px;
+    height: 60px;
+}
+
+.nav_bt{
+    display: flex;
+}
+
+.nav_botoes {
+    display: flex;
+    padding: 5px;
+}

@@ -1,0 +1,24 @@
+version: 2.6.0
+services: 
+  civitas-front: 
+    build: ./frontend/
+    depends_on: 
+      - civitas-back
+    ports: 
+      - "3000:3000"
+    volumes: 
+      - front:/usr/app-front
+  civitas-back: 
+    build: ./backend/
+    ports: 
+      - "8080:8080"
+    volumes: 
+      - back:/usr/app-back
+
+volumes:
+  front:
+    external: true
+    name: front
+  back:
+    external: true
+    name: back

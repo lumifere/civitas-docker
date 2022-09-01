@@ -1,0 +1,27 @@
+.login {
+    padding: 10px 20px 10px;
+    border-radius: 50px;
+    border: 3px solid #FE6400;
+    background-color: #ffffff;
+    color: #FE6400;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.login:hover {
+    background-color: #ebebeb;
+}
+
+.civitas {
+    padding: 10px 20px 10px;
+    border-radius: 50px;
+    border: 3px solid #FE6400;
+    background-color: #FE6400;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.civitas:hover {
+    background-color: #ff8533;
+}

@@ -1,0 +1,10 @@
+.inicial_titulo img{
+    width: auto;
+    height: auto;
+}
+
+.inicial_texto {
+    color: white;
+    padding: 40px 0 20px;
+    font-weight: bold;
+}

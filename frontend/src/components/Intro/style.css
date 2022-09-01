@@ -1,0 +1,22 @@
+.inicial_intro { 
+    text-align: center;
+    height: 100%;
+    padding-right: 200px;
+    padding-top: 150px;
+}
+
+.inicial_download1 {
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0 20px;
+}
+
+.inicial_download2 {
+    display: flex;
+    justify-content: space-evenly;
+    height: 60px;
+}
+
+.inicial_download2 img{
+    width: 180px;
+}
